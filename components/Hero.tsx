@@ -33,7 +33,7 @@ const Hero = () => {
                         <p>
                             Hello there, I&apos;m Richard Winner Duvor, I am a software engineer willing to recreate the world with tech.
                         </p>
-                        <a href="#abut">
+                        <a href="#about">
 
                             <ShimmerButton
                                 title="See my work"
