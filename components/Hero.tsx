@@ -46,10 +46,9 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h1 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 font-bold font-outfit">
-    Richard Winner Duvor
-</h1>
-
+          <h1 className="uppercase tracking-widest text-6xl font-extrabold font-outfit animate-color-change">
+            Richard Winner Duvor
+          </h1>
 
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
@@ -57,17 +56,20 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            words="Transforming Innovative Ideas into Seamless, Intuitive, and Engaging User Experiences that Inspire and Delight"
+            className="text-center text-[20px] md:text-2xl lg:text-xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hello! You are welcome. I&apos;m Richard Winner Duvor, a frontend Developer who has a strong passion for the new internet, web3 and blockchain. Trust me with smart contracts.
+          <p className=" mt-8 text-l text-gray-200 animate-color-change">
+            Bridging the future with cutting-edge technology. Dive into the
+            world of decentralized solutions, seamless front-end experiences,
+            and intelligent AI creations. Together, we'll build the future, one
+            line of code at a time.
           </p>
 
           <a href="#about">
             <MagicButton
-              title="See my work"
+              title="Explore my work"
               icon={<FaLocationArrow />}
               position="right"
             />
