@@ -202,27 +202,33 @@ export const workExperience = [
 ];
 
 export const socialMedia = [
-   {      
+  {
     id: 1,
-    img: "/github.svg",
+    img: "/git.svg",
     alt: "GitHub",
     link: "https://github.com/dr-winner",
   },
   {
     id: 2,
-    img: "/twitter.svg",
+    img: "/twit.svg",
     alt: "X",
     link: "https://x.com/dr_winner6",
   },
   {
     id: 3,
-    img: "/warpcast.svg",
+    img: "/farcaster.svg",
     alt: "Warpcast",
     link: "https://warpcast.com/drwinner",
   },
   {
     id: 4,
-    img: "/instagram.svg",
+    img: "/link.svg",
+    alt: "LinkedIn",
+    link: "https://www.linkedin.com/in/richard-winner-duvor/",
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
     alt: "Instagram",
     link: "https://www.instagram.com/winner.richard",
   },
