@@ -98,7 +98,7 @@ export const projects = [
     id: 4,
     title: "VaultNotesAi",
     des: "VaultNotesAi - ICP based project that helps users take memo, transcribe audio to text, and many more",
-    img: "/p4.svg",
+    img: "/ailogo.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "",
   },
