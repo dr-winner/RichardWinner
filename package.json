@@ -19,7 +19,9 @@
     "@types/three": "^0.163.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "core-js": "^3.40.0",
     "framer-motion": "^11.0.25",
+    "lottie-react": "^2.4.1",
     "lucide-react": "^0.365.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "^14.2.23",
@@ -33,6 +35,7 @@
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.163.0",
     "three-globe": "^2.41.4",
+    "uuid": "^11.0.5",
     "vercel": "^39.3.0"
   },
   "devDependencies": {

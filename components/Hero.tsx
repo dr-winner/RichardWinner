@@ -63,8 +63,8 @@ const Hero = () => {
           <p className=" mt-8 text-l text-gray-200 animate-color-change">
             Bridging the future with cutting-edge technology. Dive into the
             world of decentralized solutions, seamless front-end experiences,
-            and intelligent AI creations. Together, we'll build the future, one
-            line of code at a time.
+            and intelligent AI creations. Together, we&apos;ll build the future,
+            one line of code at a time.
           </p>
 
           <a href="#about">

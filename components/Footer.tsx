@@ -24,15 +24,16 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Are you ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Are you ready to take <span className="text-purple">your</span>{" "}
+          digital presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you achieve your goals.
+          Reach out to me today and let&apos;s discuss how I can help you
+          achieve your goals.
         </p>
         <a href="mailto:drwinner03@gmail.com">
           <MagicButton
-            title="Let's connect!"
+            title="Let us connect!"
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -41,9 +42,11 @@ const Footer = () => {
 
       <div className="mt-16 flex flex-col items-center">
         {/* Centered and padded "Connect with Me" header */}
-        <h2 className="text-xl font-bold text-white text-center py-4">Connect with Me</h2>
+        <h2 className="text-xl font-bold text-white text-center py-4">
+          Connect with Me
+        </h2>
         <p className="text-white-200 mt-2 text-center">
-          Let's collaborate and build something amazing together. Reach out
+          Let&apos;s collaborate and build something amazing together. Reach out
           through any of the platforms below:
         </p>
       </div>
