@@ -26,25 +26,37 @@ export default withSentryConfig(withSentryConfig(nextConfig, {
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
+org: "student-usz", // Choose the correct organization
+project: "javascript-nextjs-1r", // Choose the correct project
+
 // Suppresses source map uploading logs during build
-silent: true,
-org: "javascript-mastery",
-project: "javascript-nextjs",
-}, {
+silent: !process.env.CI, // Only print logs for uploading source maps in CI
+
 // For all available options, see:
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
 
+// Upload a larger set of source maps for prettier stack traces (increases build time)
 widenClientFileUpload: true,
+
 transpileClientSDK: true,
+
+// Route browser requests to Sentry through a Next.js rewrite to circumvent ad-blockers.
+tunnelRoute: "/monitoring",
+
+// Hides source maps from generated client bundles
 hideSourceMaps: true,
+
+// Automatically tree-shake Sentry logger statements to reduce bundle size
 disableLogger: true,
+
+// Enables automatic instrumentation of Vercel Cron Monitors.
 automaticVercelMonitors: true,
 }), {
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
 org: "student-usz",
-project: "javascript-nextjs-1r",
+project: "javascript-nextjs",
 
 // Only print logs for uploading source maps in CI
 silent: !process.env.CI,
