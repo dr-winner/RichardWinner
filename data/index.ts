@@ -137,19 +137,19 @@ export const testimonials = [
   },
 ];
 
-// export const companies = [
+export const companies = [
 //   {
 //     id: 1,
 //     name: "cloudinary",
 //     img: "/cloud.svg",
 //     nameImg: "/cloudName.svg",
 //   },
-//   {
-//     id: 2,
-//     name: "appwrite",
-//     img: "/app.svg",
-//     nameImg: "/appName.svg",
-//   },
+  {
+    id: 2,
+    name: "appwrite",
+    img: "/app.svg",
+    nameImg: "/appName.svg",
+  },
 //   {
 //     id: 3,
 //     name: "HOSTINGER",
@@ -162,13 +162,13 @@ export const testimonials = [
 //     img: "/s.svg",
 //     nameImg: "/streamName.svg",
 //   },
-//   {
-//     id: 5,
-//     name: "docker.",
-//     img: "/dock.svg",
-//     nameImg: "/dockerName.svg",
-//   },
-// ];
+  {
+    id: 5,
+    name: "docker.",
+    img: "/dock.svg",
+    nameImg: "/dockerName.svg",
+  },
+];
 
 export const workExperience = [
   {
