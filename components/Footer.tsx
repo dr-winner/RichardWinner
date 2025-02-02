@@ -19,6 +19,8 @@ const Footer = () => {
         <Image
           src="/footer-grid.svg"
           alt="grid"
+          width="200"
+          height="200"
           className="w-full h-full opacity-50"
         />
       </div>
@@ -34,7 +36,7 @@ const Footer = () => {
         </p>
         <a href="mailto:drwinner03@gmail.com">
           <MagicButton
-            title="Let us connect!"
+            title="Email me here!"
             icon={<FaLocationArrow />}
             position="right"
           />
